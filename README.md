@@ -8,8 +8,9 @@
 - CSS
 - JavaScript
 - VSCODE and webpack
+## Demo![demoleaderboard](https://user-images.githubusercontent.com/32224137/179479270-9672406f-638e-4861-8473-d80a0e19e89b.png)
 
-## Demo! [coming soon]()
+## Live Demo! [coming soon]()
 
 ## Getting Started
 
