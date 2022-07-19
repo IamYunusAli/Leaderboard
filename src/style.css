@@ -31,7 +31,7 @@ body {
 
 .scorelist {
   border: 1px solid #abd1c6;
-  color:#abd1c6;
+  color: #abd1c6;
   box-shadow: 10px 10px #f9bc69;
 }
 
@@ -41,19 +41,19 @@ body {
   box-shadow: 10px 10px #f9bc69;
 }
 
-h1, h2 {
+h1,
+h2 {
   margin-top: 0;
-  color: #eff0f3
+  color: #eff0f3;
 }
 
 button {
-  height: 30px;
   background-color: #abd1c6;
   cursor: pointer;
   border-radius: 5px;
   width: 100px;
   height: 35px;
-  color:#004643;
+  color: #004643;
 }
 
 input {
@@ -92,7 +92,7 @@ li {
   background-color: #f9bc69;
   padding: 0;
   padding-left: 10px;
-  color: #004643
+  color: #004643;
 }
 
 form {
