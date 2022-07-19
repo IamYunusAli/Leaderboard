@@ -18,7 +18,6 @@ body {
   justify-content: flex-start;
   align-items: flex-end;
   gap: 10px;
-  position: relative;
 }
 
 .recent {
@@ -46,11 +45,11 @@ input {
   border: 2px solid #000;
   height: 20px;
   height: 2rem;
-  width: 90%;
+  width: inherit;
 }
 
 input::placeholder {
-  color: #000;
+  color: rgb(75, 73, 73);
 }
 
 #listitems {
@@ -64,10 +63,19 @@ input::placeholder {
   padding-left: 10px;
 }
 
-.listitem:nth-child(even) {
+#listitems > li:nth-child(even) {
   background-color: #ddd;
   padding: 0;
   padding-left: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 10px;
+  width: inherit;
 }
 
 .subtn {
