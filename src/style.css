@@ -63,6 +63,10 @@ input::placeholder {
   padding-left: 10px;
 }
 
+li {
+  list-style: none;
+}
+
 #listitems > li:nth-child(even) {
   background-color: #ddd;
   padding: 0;
@@ -80,8 +84,4 @@ form {
 
 .subtn {
   width: 30%;
-}
-
-li {
-  list-style: none;
 }
