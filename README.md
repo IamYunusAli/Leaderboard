@@ -11,9 +11,10 @@
 
 
 ## Demo! 
-![LeaderBoard Built by Yunus Ali - 19 July 2022](https://user-images.githubusercontent.com/32224137/179684254-7c588769-f77a-41bd-ab1d-a6d66e44af44.gif)
+![demoooo](https://user-images.githubusercontent.com/32224137/179751779-ce2a3cf4-0168-4f3d-84f5-fa44037b3bce.png)
 
-## Live Demo! [coming soon]()
+
+## Live Demo! [Live demo](https://iamyunusali.github.io/Leaderboard/)
 
 ## Getting Started
 

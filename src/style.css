@@ -3,6 +3,8 @@ body {
   padding: 2% 10%;
   text-align: center;
   font-size: 1.5rem;
+  background-color: #004643;
+  color: #e16162;
 }
 
 .render {
@@ -28,24 +30,43 @@ body {
 }
 
 .scorelist {
-  border: 1px solid #000;
+  border: 1px solid #abd1c6;
+  color: #abd1c6;
+  box-shadow: 10px 10px #f9bc69;
 }
 
+.scorelist:hover {
+  border: 1px solid #b6b6b6;
+  border-radius: 10px;
+  box-shadow: 10px 10px #f9bc69;
+}
+
+h1,
 h2 {
   margin-top: 0;
+  color: #eff0f3;
 }
 
 button {
-  height: 30px;
-  border: 2px solid #000;
+  background-color: #abd1c6;
   cursor: pointer;
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+  color: #004643;
 }
 
 input {
-  border: 2px solid #000;
+  border: 2px solid #004643;
   height: 20px;
   height: 2rem;
   width: inherit;
+  background-color: #f9bc69;
+}
+
+input:focus {
+  box-shadow: 5px 5px #e16162;
+  border-radius: 5px;
 }
 
 input::placeholder {
@@ -68,9 +89,10 @@ li {
 }
 
 #listitems > li:nth-child(even) {
-  background-color: #ddd;
+  background-color: #f9bc69;
   padding: 0;
   padding-left: 10px;
+  color: #004643;
 }
 
 form {
@@ -79,9 +101,9 @@ form {
   justify-content: flex-start;
   align-items: flex-end;
   gap: 10px;
-  width: inherit;
+  width: 300px;
 }
 
 .subtn {
-  width: 30%;
+  width: 100px;
 }
