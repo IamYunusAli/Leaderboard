@@ -8,7 +8,10 @@
 - CSS
 - JavaScript
 - VSCODE and webpack
-## Demo![demoleaderboard](https://user-images.githubusercontent.com/32224137/179479270-9672406f-638e-4861-8473-d80a0e19e89b.png)
+
+
+## Demo! 
+![LeaderBoard Built by Yunus Ali - 19 July 2022](https://user-images.githubusercontent.com/32224137/179684254-7c588769-f77a-41bd-ab1d-a6d66e44af44.gif)
 
 ## Live Demo! [coming soon]()
 
