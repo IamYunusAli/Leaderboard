@@ -1,41 +1,19 @@
-const list = [
-  {
-    Name: 'Yunus',
-    Score: '200',
-  },
-  {
-    Name: 'Hamza',
-    Score: '2000',
-  },
-  {
-    Name: 'Amanuel',
-    Score: '2',
-  },
-  {
-    Name: 'Hirpo',
-    Score: '20',
-  },
-  {
-    Name: 'ushindi',
-    Score: '150',
-  },
-  {
-    Name: 'Ernest',
-    Score: '1150',
-  },
-  {
-    Name: 'Ghazanfar',
-    Score: '650',
-  },
-  {
-    Name: 'Tarek',
-    Score: '950',
-  },
-];
+/* eslint-disable import/prefer-default-export */
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/8EW0UYxLIrzBlDheiDxi/scores';
 
-export default function renderlist() {
-  const lists = document.getElementById('listitems');
-  list.forEach((score) => {
-    lists.innerHTML += ` <li class="listitem">${score.Name} : ${score.Score}</li>`;
+export const listscore = async () => {
+  const response = await fetch(url);
+  const { result } = await response.json().catch((error) => new Error(error));
+  return result;
+};
+
+export const display = (list) => {
+  const listcontainer = document.querySelector('#listitems');
+  listcontainer.innerHTML = '';
+  if (list.length === 0) {
+    listcontainer.innerHTML = '<li>NO SCORES YET</li>';
+  }
+  list.sort((a, b) => b.score - a.score).forEach((score) => {
+    listcontainer.innerHTML += ` <li>${score.user} : ${score.score}</li>`;
   });
-}
+};
